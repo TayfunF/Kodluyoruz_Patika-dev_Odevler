@@ -1,0 +1,99 @@
+header{
+    .header-ul{
+        list-style: none;
+        overflow: hidden;
+        li{
+            float:right;
+            a{
+                display: block;
+                text-align: center;
+                padding: 10px 10px;
+                text-decoration: none;
+                font-size: 13px;
+                font-family: sans-serif;
+                &:hover{
+                    text-decoration: underline;
+                }
+                .resim{
+                    height: 30px;
+                    position: relative;
+                    bottom: 7px;
+                    border-radius: 30px;
+                }
+                .app{
+                    height: 23px;
+                    position: relative;
+                    bottom: 4px;
+                }
+            }
+        }
+    }
+}
+.section{
+    text-align: center;
+    .logo{
+        margin-top: 85px;
+        margin-bottom: 20px;
+    }
+    .searchbar{
+        margin: 0 auto;
+        width: 575px;
+        height: 35px;
+        border-radius: 30px;
+        border: 1px solid #dcdcdc;
+        &:hover{
+            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+    }
+    .buttons{
+        margin-top: 20px;
+        position: relative;
+    }
+}
+footer{
+    margin-top: 200px;
+    .tur{
+        margin-top: 100px;
+        padding: 15px 30px;
+        border-bottom: 1px solid #b7b9be;
+        font-size: 15px;
+        color: rgba(0,0,0,.54);
+        background-color: #eaeaeb;
+    }
+    
+        background-color: #eaeaeb;
+        .footer-ul{
+            list-style: none;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+            .carbon{
+                margin-left: 250px;
+                margin-right: 50px;
+            }
+            .trio1{
+                margin-left: 300px;
+            }
+            .trio2{
+                margin-left:10px;
+            }
+            .trio3{
+                margin-left:10px;
+            }
+            a{
+                display: block;
+                padding: 10px 10px;
+                text-decoration: none;
+                font-size: 15px;
+                font-family: sans-serif;
+                position: relative;
+                right: 20px;
+                &:hover{
+                    text-decoration: underline;
+                }
+                
+            }
+        }
+    
+}

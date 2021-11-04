@@ -1,0 +1,116 @@
+header .header-ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+header .header-ul li {
+  float: right;
+}
+
+header .header-ul li a {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+header .header-ul li a:hover {
+  text-decoration: underline;
+}
+
+header .header-ul li a .resim {
+  height: 30px;
+  position: relative;
+  bottom: 7px;
+  border-radius: 30px;
+}
+
+header .header-ul li a .app {
+  height: 23px;
+  position: relative;
+  bottom: 4px;
+}
+
+.section {
+  text-align: center;
+}
+
+.section .logo {
+  margin-top: 85px;
+  margin-bottom: 20px;
+}
+
+.section .searchbar {
+  margin: 0 auto;
+  width: 575px;
+  height: 35px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+}
+
+.section .searchbar:hover {
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.section .buttons {
+  margin-top: 20px;
+  position: relative;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #eaeaeb;
+}
+
+footer .tur {
+  margin-top: 100px;
+  padding: 15px 30px;
+  border-bottom: 1px solid #b7b9be;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #eaeaeb;
+}
+
+footer .footer-ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+footer li {
+  float: left;
+}
+
+footer li .carbon {
+  margin-left: 250px;
+  margin-right: 50px;
+}
+
+footer li .trio1 {
+  margin-left: 300px;
+}
+
+footer li .trio2 {
+  margin-left: 10px;
+}
+
+footer li .trio3 {
+  margin-left: 10px;
+}
+
+footer li a {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  right: 20px;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
